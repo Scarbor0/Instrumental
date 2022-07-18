@@ -1,0 +1,5 @@
+@mixin _lx {
+	@media (max-width: 1500px){
+		@content;
+	}
+}

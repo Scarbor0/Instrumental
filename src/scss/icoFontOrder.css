@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'icoFontOrder';
+  src:  url('../fonts/icoFontOrder.eot?dcdaja');
+  src:  url('../fonts/icoFontOrder.eot?dcdaja#iefix') format('embedded-opentype'),
+    url('../fonts/icoFontOrder.ttf?dcdaja') format('truetype'),
+    url('../fonts/icoFontOrder.woff?dcdaja') format('woff'),
+    url('../fonts/icoFontOrder.svg?dcdaja#icoFontOrder') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, 
+[class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icoFontOrder' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-email:before {
+  content: "\e900";
+  color: #e24040;
+}
+.icon-message1:before {
+  content: "\e901";
+  color: #ffffff;
+}
+.icon-name:before {
+  content: "\e902";
+  color: #e24040;
+}
+.icon-phone:before {
+  content: "\e903";
+  color: #e24040;
+}
